@@ -1,0 +1,7 @@
+*.xcuserstate
+*.xcbkptlist
+.DS_Store
+*.pbxuser
+xcuserdata
+libSqlite_armv7_arm64.a
+libSqlite_i386_x86_64.a
