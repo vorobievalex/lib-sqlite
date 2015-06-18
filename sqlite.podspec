@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.ios.requires_arc = true
   s.ios.preserve_paths = 'sqlite3'
   s.public_header_files = 'sqlite3/Headers/**/*.h'
-  s.vendored_libraries = 'sqlite3/libSQLite3.a
+  s.vendored_libraries = 'sqlite3/libSQLite3.a'
   s.libraries = 'SQLite3'
 end
 
