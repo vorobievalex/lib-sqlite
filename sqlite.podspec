@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "git@github.com:vorobievalex/lib-sqlite.git", :tag => "3.8.8.2" }
 
   s.preserve_paths  = 'Sqlite'
-  s.source_files    = 'Sqlite/*.{h,m}'
+  s.source_files    = 'Sqlite/sqlite3.h', 'Sqlite/sqlite3.c'
   s.public_header_files = 'Sqlite/sqlite3.h'
   s.vendored_libraries  = 'libSQLite3.a'
 end
